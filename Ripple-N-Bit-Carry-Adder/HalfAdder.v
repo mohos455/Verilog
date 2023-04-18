@@ -1,0 +1,18 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Engineer: Mohamed Hesham
+// Design Name: Half Adder
+// Module Name: HA
+// Project Name: Ripple N-Bit Carry Adder
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module HA(
+    input x,y,
+    output s,c
+    );
+    
+    assign s = x^y;
+    assign c = x & y;
+    
+endmodule
